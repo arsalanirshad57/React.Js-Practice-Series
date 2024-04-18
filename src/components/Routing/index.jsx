@@ -1,7 +1,7 @@
-import Contact from '../Contact'
-import About from '../About'
+import Contact from '../../Contact'
+import About from '../../About'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
-import Home from '../Home'
+import Home from '../../Home'
 import Header from './Header'
 
 const Routing = () => {
