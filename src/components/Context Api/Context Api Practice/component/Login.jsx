@@ -7,8 +7,15 @@ const Login = () => {
   const { SetUserInform } = useContext(UserContext)
 
   const handleFormSubmint = () => {
-    SetUserInform({ userName, password })
+    if(userName || password ){
+      SetUserInform({ userName, password })
+    }else if (userName || password == ''){  
+      alert('please enter complete information')
+    }else{
+      alert('please enter complete information')
+    }
   }
+
   return (
     <div className='flex gap-2'>
       <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)} />
