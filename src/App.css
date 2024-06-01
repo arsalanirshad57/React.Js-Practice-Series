@@ -18,7 +18,7 @@ body {
     font-weight: 400;
 }
 
-input[type='Checkbox'] {
+/* input[type='Checkbox'] {
     box-sizing: border-box;
     position: relative;
     margin-top: 3px;
@@ -79,4 +79,4 @@ input[type=range]::-webkit-slider-runnable-track {
 
 input[type=range] {
     width: 100%;
-}
+} */

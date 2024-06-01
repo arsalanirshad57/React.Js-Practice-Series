@@ -4,13 +4,18 @@ import IndexBasedMaping from './components/IndexBasedMaping'
 import SearchBar from './components/SearchBar'
 import RandomPasswordGenerator from './components/RandomPasswordGenerator'
 import UserApp from './components/Context Api/Context Api Practice/UserApp'
+import ContextApiThemeSwitcher from './components/Context Api/Context Api Theme Switcher'
+
+
+
 function App() {
   return (
-    <div>
+    <div className='flex justify-center items-center h-screen'>
       {/* <Routung/> */}
       {/* <SearchBar /> */}
       {/* <RandomPasswordGenerator/> */}
-      <UserApp/>
+      {/* <UserApp/> */}
+      <ContextApiThemeSwitcher/>
     </div>
 
   )

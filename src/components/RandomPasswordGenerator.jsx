@@ -10,7 +10,6 @@ const [addCharacter , setAddCharacter] = useState(false)
     const handleRangeSelect = (value) => {
         setRange(value)
     }
-
     return (
         <div className=' flex justify-center items-center  w-full h-screen'>
             <div className=" flex flex-col justify-center gap-3 items-center p-5 w-11/12  sm:w-9/12 lg:w-1/3 2xl:w-[28%] bg-white shadow-lg min-h-96 rounded-lg border ">
